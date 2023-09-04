@@ -1,0 +1,58 @@
+<template>
+  <v-container fluid>
+    <v-row>
+      <v-col cols="12" md="6" style="height: 370px;">
+        <v-card>
+          <v-card-title class="text-warning">[ Ectasy ]</v-card-title>
+          <v-card-title class="text-info">[ INFO ]</v-card-title>
+          <v-card-text>Ectasy is a backdoor that can be injected into any plugin, they are free with paid options.</v-card-text>
+          <v-card-title class="text-info">[ How it works ]</v-card-title>
+          <v-card-text>They add whole directory that has an infected class in it, this class will download the main backdoor from a url, then proceed to initialize the main backdoor, from there a person with ectasy can do ./login and basically destroy your server in a few seconds / mins</v-card-text>
+          <v-card-title class="text-info">[ How to Remove it]</v-card-title>
+          <v-card-text>Delete all plugins and delete PluginMetrics folder and redownload the plugins either from official sources or from official people</v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" md="6" style="height: 370px;">
+        <v-card>
+          <v-card-title class="text-warning">[ Thicc Industries ]</v-card-title>
+          <v-card-title class="text-info">[ INFO ]</v-card-title>
+          <v-card-text>Thicc Industries is a backdoor that can be injected into any plugin, they are free and open source.</v-card-text>
+          <v-card-title class="text-info">[ How it works ]</v-card-title>
+          <v-card-text>They create quite a obvious directory in the file (com.thiccindustries.debugger), this will be where all the infected classes are, when someone does the prefix it will activate the backdoor giving that person more power than op this can and will give them power to destroy your server </v-card-text>
+          <v-card-title class="text-info">[ How to Remove it]</v-card-title>
+          <v-card-text>Just find what plugin has it using winrar, and delete the plugin, yep thats literally it...</v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" md="6" style="height: 370px;">
+        <v-card>
+          <v-card-title class="text-warning">[ Bukloit / OpenBukloit ]</v-card-title>
+          <v-card-title class="text-info">[ INFO ]</v-card-title>
+          <v-card-text>Bukloit / OpenBukloit is a backdoor that can be injected into any plugin, they are free and open source.</v-card-text>
+          <v-card-title class="text-info">[ How it works ]</v-card-title>
+          <v-card-text>Bukloit can create quite a obvious directory in the file (bukloit.Bukloit), this will be where all the infected classes are, when someone does the prefix it will activate the backdoor giving that person more power than op this can and will give them power to destroy your server.OpenBukloit has an option for Camouflage this will basically pick a random ass class and remove all its old contents and put the backdoor code into it</v-card-text>
+          <v-card-title class="text-info">[ How to Remove it]</v-card-title>
+          <v-card-text>Just find what plugin has it using winrar, and delete the plugin, yep thats literally it...</v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" md="6" style="height: 370px;">
+        <v-card>
+          <v-card-title class="text-warning">[ HostFlow ]</v-card-title>
+          <v-card-title class="text-info">[ INFO ]</v-card-title>
+          <v-card-text>HostFlow is a backdoor that can be injected into any plugin, they are private</v-card-text>
+          <v-card-title class="text-info">[ How it works ]</v-card-title>
+          <v-card-text>HostFlow disguises itself as JavaAssist package, you can find the url in a.class, this is were they connect to their url http://client.hostflow.eu:5050/ws, they get your server ip with http://checkip.amazonaws.com, then they send it to their webhook, They also make a package with the same name of the main package just has L10 at the end, in the main package onEnable they initialise the backdoor.</v-card-text>
+          <v-card-title class="text-info">[ How to Remove it]</v-card-title>
+          <v-card-text>Remove the JavaAssist package, then remove the initialize in the main class in the onEnable should look like this (new {MainPackage}L10()).a(getDataFolder().getParent());</v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
+<script setup>
+useHead({
+  title: "HEROBRINE_yashar"
+});
+</script>
+
+<style>
+</style>
